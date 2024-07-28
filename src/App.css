@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+/* input holder styling */
+.input {
+  background-color: rgb(247, 234, 72);
+  border: solid rgb(247, 234, 72) 2px;
+  color: black;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.register {
+  background-color: rgb(29, 113, 81);
+  border: solid rgb(29, 113, 81) 2px;
+  color: black;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+/* both buttons in home component */
+.login {
+  background-color: rgb(247, 234, 72);
+  border: solid rgb(247, 234, 72) 2px;
+  padding: 5px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.text {
+  margin-left: 35%;
+  width: 30%;
+  padding-top: 20px;
+  color: gray;
+}
+
+.price {
+  font-weight: 600;
+  font-size: xx-large;
+}
+
+.footer {
+  background-color: rgb(247, 234, 72);
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+/* tried using a stylesheet in the header component, but not all styling showed
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+} 
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: green;
+}*/
+
+.col {
+  padding: 5px;
+  align-self: center;
+}
+
+/* total block in the right corner */
+.total {
+  position: fixed;
+  top: 54px;
+  right: 0px;
+  color: white;
+  background-color: rgb(0, 55, 170);
+  padding: 10px;
+}
+
+.label {
+  padding-right: 8px;
+  font-weight: 500;
+}
